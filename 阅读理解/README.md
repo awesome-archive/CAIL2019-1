@@ -6,6 +6,23 @@
 
 QQ群：237633234
 
+## 引用
+
+如果本目录中的内容对你的研究工作有所帮助，请在文献中引用下述技术报告：[https://arxiv.org/abs/1912.09156]
+
+```
+@InProceedings{10.1007/978-3-030-32381-3_36,
+author="Duan, Xingyi and Wang, Baoxin and Wang, Ziyue and Ma, Wentao and Cui, Yiming and Wu, Dayong and Wang, Shijin and Liu, Ting and Huo, Tianxiang and Hu, Zhen and Wang, Heng and Liu, Zhiyuan",
+editor="Sun, Maosong and Huang, Xuanjing and Ji, Heng and Liu, Zhiyuan and Liu, Yang",
+title="CJRC: A Reliable Human-Annotated Benchmark DataSet for Chinese Judicial Reading Comprehension",
+booktitle="Chinese Computational Linguistics",
+year="2019",
+publisher="Springer International Publishing",
+address="Cham",
+pages="439--451",
+}
+```
+
 ## 数据说明
 
 本任务所使用的数据集是来自“中国裁判文书网”公开的法律文书，主要涉及民事和刑事的一审判决书，总共约1万份数据，并按比例划分训练、开发和测试。每份数据包括若干个问题，对于训练集，每个问题只包含一个标准回答，对于开发和测试集，每个问题包含3个标准回答。回答内容可以是案情片段，可以是YES或NO，也可以拒答即回答内容为空。
